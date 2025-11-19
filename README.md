@@ -49,3 +49,6 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Use of OpenAI API
+Enter url and apiKey for use of OpenAI API in openai-service.ts
