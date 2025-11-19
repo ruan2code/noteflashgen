@@ -1,1 +1,6 @@
-<p>notes-view works!</p>
+<div>
+    @for (item of notes(); track $index) {
+        <p>{{item.noteInput}}</p>
+        <button type="button">Generate Flashcard</button>
+    }
+ </div>

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
+import { NotesDataService } from '../notes-data-service';
 
 @Component({
   selector: 'app-notes-view',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './notes-view.css',
 })
 export class NotesView {
+  private readonly noteDataService = inject(NotesDataService);
+
+  readonly notes = computed(() => this.noteDataService.notes() ?? []);
 
 }

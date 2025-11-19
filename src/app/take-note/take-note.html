@@ -1,1 +1,4 @@
-<p>take-note works!</p>
+<div>
+    <input type="text" [value]="noteInput()" (input)="noteInput.set($any($event.target).value)" placeholder="Take a note!"/>
+    <button type="button" (click)="submitNote()">Add</button>
+</div>
