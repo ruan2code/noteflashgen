@@ -1,8 +1,37 @@
-# Noteflashgen
+# 🧠 Noteflashgen
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
+## About
+Do you want to turn your notes into Flashcards and accelerate your learning process? Noteflashgen will help you by doing exactly this!
 
-## Development server
+## Approach
+
+### 1. Initial planning and structure
+First, I created an overview of the web app and sketched out the main structure. I identified the components and interfaces and defined the relationships between these components.
+
+### 2. Breaking down into tasks
+I then divided the three core features into smaller tasks and organized them in Notion, using a Kanban board as my project management tool.
+
+### 3. Implementation of core features
+After that, I implemented task 1 as the first work block, followed by implementing tasks 2 and 3 together.
+
+### 4. Layout and styling
+Finally, I used the remaining time to work on the layout and CSS.
+
+## Assumptions I made due to the 2-hour time constraint
+- Automated tests can be omitted for this prototype.
+- UX/UI is not the main priority, as I assume implementing the core functionality is more important at this stage. Normally, I pay a lot of attention to user-centric design that encourages interaction.
+- A simple “loading” indicator is sufficient for this small prototype, although I have additional ideas, such as a mascot animation during loading.
+- A basic flashcard display is sufficient for this initial version.
+
+
+## Tech Stack 
+- Angular v20.3.10
+- vite 
+- TypeScript
+- OpenAI API 
+
+
+## How to run on Development server
 
 To start a local development server, run:
 
@@ -11,49 +40,3 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
