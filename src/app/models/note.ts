@@ -1,4 +1,4 @@
 export interface Note {
-    nodeId: string;
+    noteId: string;
     noteInput: string;
 }

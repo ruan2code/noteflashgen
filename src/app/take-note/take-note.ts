@@ -10,12 +10,11 @@ import { Note } from '../models/note';
 })
 export class TakeNote {
   private readonly noteDataService = inject(NotesDataService);
-  // readonly newNoteInput: Note = signal<Note>({ nodeId: 0, noteInput: '' });
   readonly noteInput = signal<string>('');
 
   submitNote(): void {
     const noteToAdd: Note = {
-      nodeId: crypto.randomUUID(),
+      noteId: crypto.randomUUID(),
       noteInput: this.noteInput(),
     };
     this.noteDataService.addNote(noteToAdd);

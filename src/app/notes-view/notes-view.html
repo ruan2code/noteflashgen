@@ -1,6 +1,19 @@
 <div>
+    <h3>
+        @if(loading()) {
+        <p>Generating flashcards...</p>
+        }
+    </h3>
     @for (item of notes(); track $index) {
-        <p>{{item.noteInput}}</p>
-        <button type="button">Generate Flashcard</button>
+    <h2 class="noteInput">{{item.noteInput}}</h2>
+    <button class="genCardButton" type="button" (click)="send(item)">Generate Flashcard</button>
+    @for (flashcard of flashcards(); track $index) {
+    @if(flashcard.noteId == item.noteId) {
+    <div class="qa">
+        <p class="q">Q: {{flashcard.question}}</p>
+        <p class="a">A: {{flashcard.answer}}</p>
+    </div>
     }
- </div>
+    }
+    }
+</div>

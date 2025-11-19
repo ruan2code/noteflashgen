@@ -1,0 +1,81 @@
+.q {
+    width: 100%;
+    max-width: 600px;
+    /* was 400px */
+    padding: 2.5rem;
+    /* was 1.5rem */
+    border-radius: 20px;
+    background-color: #f4eeb6;
+
+    box-shadow:
+        0 16px 30px rgba(0, 0, 0, 0.08),
+        0 6px 12px rgba(0, 0, 0, 0.05);
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    /* more spacing between elements */
+}
+
+.a {
+    width: 100%;
+    max-width: 600px;
+    /* was 400px */
+    padding: 2.5rem;
+    /* was 1.5rem */
+    border-radius: 20px;
+    background-color: #94e0b1;
+
+    box-shadow:
+        0 16px 30px rgba(0, 0, 0, 0.08),
+        0 6px 12px rgba(0, 0, 0, 0.05);
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    /* more spacing between elements */
+}
+
+.noteInput {
+    width: 100%;
+    max-width: 600px;
+    /* was 400px */
+    padding: 2.5rem;
+    /* was 1.5rem */
+    border-radius: 20px;
+    background-color: #f0f0f0;
+
+    box-shadow:
+        0 16px 30px rgba(0, 0, 0, 0.08),
+        0 6px 12px rgba(0, 0, 0, 0.05);
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    /* more spacing between elements */
+}
+
+.genCardButton {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #3f33ae;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+    background-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.genCardButton:hover {
+    background-color: #403c64;
+    color: white;
+}

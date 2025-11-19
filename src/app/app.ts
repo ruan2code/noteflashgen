@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { TakeNote } from "./take-note/take-note";
 
 @Component({
   selector: 'app-root',
