@@ -20,7 +20,8 @@ First, I created an overview of the core features and sketched out the main stru
 I then divided the three core features into smaller tasks and organized them in Notion, using a Kanban board as my project management tool.
 
 ### 3. Implementation of core features
-After that, I implemented feature 1 as the first work block, followed by implementing feature 2 and 3 together.
+- I implemented feature 1 as the first work block, followed by implementing feature 2 and 3 together.
+- When designing simple but effective prompts for the OpenAI API, I first consider the main purpose of a flashcard: a short and concise question-and-answer format. Based on that, I then define the technical requirement: the response should be returned as JSON with separate "question" and "answer" fields.
 
 ### 4. Layout and styling
 Finally, I used the remaining time to work on the layout and CSS.
