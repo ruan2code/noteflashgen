@@ -16,6 +16,10 @@ This project is created for a coding challenge with the following objective to b
 ### 1. Initial planning and structure
 First, I created an overview of the core features and sketched out the main structure. I identified the components and interfaces and defined the relationships between these components.
 
+- components: take-note component, and note-view component, note-data-service and openai-service to separate responsibilities
+- interfaces: note and flashcard has unique identifiers and flashcard has also a noteid -> easy to map
+- Angular signal: simplify state management through fine-grained reactivity that only updates components when a signal changes, rather than checking the entire component tree
+
 ### 2. Breaking down into tasks
 I then divided the three core features into smaller tasks and organized them in Notion, using a Kanban board as my project management tool.
 
